@@ -1,0 +1,17 @@
+-cp src 
+-cs out 
+
+-main Main 
+
+-net-lib pango-sharp.dll 
+-net-lib atk-sharp.dll 
+-net-lib gdk-sharp.dll 
+-net-lib gtk-sharp.dll 
+-net-lib glib-sharp.dll 
+-net-lib gtk-dotnet.dll 
+-net-lib Mono.Cairo.dll 
+
+-c-arg /platform:x86
+
+# -D dump
+
