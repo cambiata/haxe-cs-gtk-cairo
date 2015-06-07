@@ -680,7 +680,7 @@ namespace haxe.lang {
 					throw global::haxe.lang.HaxeException.wrap(global::haxe.lang.Runtime.concat("Invalid calling parameters for method ", ( methods[0] as global::System.Reflection.MemberInfo ).Name));
 				}
 				
-				double best = global::System.Double.PositiveInfinity;
+				double best = global::Math.POSITIVE_INFINITY;
 				int bestMethod = 0;
 				{
 					int _g3 = 0;

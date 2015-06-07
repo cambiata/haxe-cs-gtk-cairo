@@ -6,8 +6,8 @@
 /out:bin/Main.exe
 /target:exe
 /main:EntryPoint__Main
-/reference:bin/pango-sharp.dll
 /reference:bin/atk-sharp.dll
+/reference:bin/pango-sharp.dll
 /reference:bin/gdk-sharp.dll
 /reference:bin/gtk-sharp.dll
 /reference:bin/glib-sharp.dll
@@ -16,6 +16,7 @@
 src\Std.cs
 src\cs\internal\Function.cs
 src\Type.cs
+src\StringTools.cs
 src\Reflect.cs
 src\cs\internal\Iterator.cs
 src\cs\internal\StringExt.cs

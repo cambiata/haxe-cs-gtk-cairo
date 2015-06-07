@@ -51,44 +51,44 @@
     <Reference Include="System" />
   
   
-    <Reference Include="pango-sharp">
-       <HintPath>pango-sharp.dll</HintPath>
+    <Reference Include="atk-sharp">
+       <HintPath>C:\Program Files (x86)\Mono\lib\mono\gac\atk-sharp\2.12.0.0__35e10195dab3c99f\atk-sharp.dll</HintPath>
     </Reference>
   
   
   
-    <Reference Include="atk-sharp">
-       <HintPath>atk-sharp.dll</HintPath>
+    <Reference Include="pango-sharp">
+       <HintPath>C:\Program Files (x86)\Mono\lib\mono\gac\pango-sharp\2.12.0.0__35e10195dab3c99f\pango-sharp.dll</HintPath>
     </Reference>
   
   
   
     <Reference Include="gdk-sharp">
-       <HintPath>gdk-sharp.dll</HintPath>
+       <HintPath>C:\Program Files (x86)\Mono\lib\mono\gac\gdk-sharp\2.12.0.0__35e10195dab3c99f\gdk-sharp.dll</HintPath>
     </Reference>
   
   
   
     <Reference Include="gtk-sharp">
-       <HintPath>gtk-sharp.dll</HintPath>
+       <HintPath>C:\Program Files (x86)\Mono\lib\mono\gac\gtk-sharp\2.12.0.0__35e10195dab3c99f\gtk-sharp.dll</HintPath>
     </Reference>
   
   
   
     <Reference Include="glib-sharp">
-       <HintPath>glib-sharp.dll</HintPath>
+       <HintPath>C:\Program Files (x86)\Mono\lib\mono\gac\glib-sharp\2.12.0.0__35e10195dab3c99f\glib-sharp.dll</HintPath>
     </Reference>
   
   
   
     <Reference Include="gtk-dotnet">
-       <HintPath>gtk-dotnet.dll</HintPath>
+       <HintPath>C:\Program Files (x86)\Mono\lib\mono\gac\gtk-dotnet\2.12.0.0__35e10195dab3c99f\gtk-dotnet.dll</HintPath>
     </Reference>
   
   
   
     <Reference Include="Mono.Cairo">
-       <HintPath>Mono.Cairo.dll</HintPath>
+       <HintPath>C:\Program Files (x86)\Mono\lib\mono\gac\Mono.Cairo\4.0.0.0__0738eb9f132ed756\Mono.Cairo.dll</HintPath>
     </Reference>
   
   
@@ -100,6 +100,8 @@
     <Compile Include="src\cs\internal\Function.cs"/>
 	
     <Compile Include="src\Type.cs"/>
+	
+    <Compile Include="src\StringTools.cs"/>
 	
     <Compile Include="src\Reflect.cs"/>
 	
