@@ -1,0 +1,19 @@
+-cs bin-linux
+
+-cp src
+-main Main 
+
+-D net-ver=40 
+-D verbose
+
+-net-lib /usr/lib/mono/gac/atk-sharp/2.12.0.0__35e10195dab3c99f/atk-sharp.dll
+-net-lib /usr/lib/mono/gac/pango-sharp/2.12.0.0__35e10195dab3c99f/pango-sharp.dll 
+-net-lib /usr/lib/mono/gac/gdk-sharp/2.12.0.0__35e10195dab3c99f/gdk-sharp.dll
+-net-lib /usr/lib/mono/gac/gtk-sharp/2.12.0.0__35e10195dab3c99f/gtk-sharp.dll
+-net-lib /usr/lib/mono/gac/glib-sharp/2.12.0.0__35e10195dab3c99f/glib-sharp.dll
+-net-lib /usr/lib/mono/gac/gtk-dotnet/2.12.0.0__35e10195dab3c99f/gtk-dotnet.dll
+-net-lib /usr/lib/mono/gac/Mono.Cairo/4.0.0.0__0738eb9f132ed756/Mono.Cairo.dll 
+
+
+# -D dump
+
